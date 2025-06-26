@@ -28,3 +28,11 @@ class BinaryTree
 		int x;
 		cout << "Masukan nilai :";
 		cin >> x;
+
+		Node *newNode = new Node();
+
+		newNode->info = x;
+
+		newNode->leftchild = nullptr;
+		newNode->rightchild = nullptr;
+
